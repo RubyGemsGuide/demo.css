@@ -135,6 +135,11 @@ header h1 {
   margin-bottom: auto;
 }
 
+header h1 a {
+  color: var(--text) !important;
+  text-decoration: none;
+}
+
 header nav a {
   margin: auto;
 }
