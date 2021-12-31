@@ -522,3 +522,19 @@ section {
   display: flex;
   flex-flow: row wrap;
 }
+
+section section {
+  width: 100%;
+}
+
+section dialog {
+  padding: 1rem 1.4rem;
+  width: 100%;
+  color: var(--preformatted);
+  background: var(--accent-bg);
+  border: 1px solid var(--border);
+  border-radius: 5px;
+  margin-top: 1rem;
+  display: block;
+  position: inherit;
+}
